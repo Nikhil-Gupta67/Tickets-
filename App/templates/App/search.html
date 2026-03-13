@@ -1,0 +1,22 @@
+<h2>Search Flight</h2>
+
+<form method="post">
+  {% csrf_token %} Source:
+  <input type="text" name="source" />
+
+  Destination:
+  <input type="text" name="destination" />
+
+  <button type="submit">Search</button>
+</form>
+
+{% for flight in flights %}
+
+<p>
+  {{ flight.flight_name }} {{ flight.source }} → {{ flight.destination }} ₹{{
+  flight.price }}
+
+  <a href="/book/{{flight.id}}">Book</a>
+</p>
+
+{% endfor %}
