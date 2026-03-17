@@ -6,7 +6,7 @@ body {
 .container {
     width: 350px;
     margin: 100px auto;
-    background: rgb(105, 95, 95);
+    background: rgb(237, 187, 187);
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(240, 175, 175, 0.2);
@@ -27,7 +27,7 @@ input {
 button {
     width: 100%;
     padding: 10px;
-    background: #007BFF;
+    background: #b1c9e2;
     color: white;
     border: none;
     border-radius: 5px;
