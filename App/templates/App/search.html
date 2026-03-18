@@ -1,22 +1,34 @@
-<h2>Search Flight</h2>
+<!doctype html>
+<html>
+  <head>
+    <title>Search Flights</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'scss/style.css' %}" />
+  </head>
 
-<form method="post">
-  {% csrf_token %} Source:
-  <input type="text" name="source" />
+  <body>
+    <div class="container">
+      <h2>Search Flight</h2>
 
-  Destination:
-  <input type="text" name="destination" />
+      <form method="post">
+        {% csrf_token %}
+        <label>Source:</label>
+        <input type="text" name="source" />
 
-  <button type="submit">Search</button>
-</form>
+        <label>Destination:</label>
+        <input type="text" name="destination" />
 
-{% for flight in flights %}
+        <button type="submit">Search</button>
+      </form>
 
-<p>
-  {{ flight.flight_name }} {{ flight.source }} → {{ flight.destination }} ₹{{
-  flight.price }}
-
-  <a href="/book/{{flight.id}}">Book</a>
-</p>
-
-{% endfor %}
+      {% for flight in flights %}
+      <p>
+        {{ flight.flight_name }} {{ flight.source }} → {{ flight.destination }}
+        ₹{{ flight.price }}
+        <br />
+        <a href="/book/{{ flight.id }}">Book</a>
+      </p>
+      {% endfor %}
+    </div>
+  </body>
+</html>
