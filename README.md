@@ -116,3 +116,23 @@ Tickets/
 └── migrations/          # Database migrations
 ```
 
+### Booking
+- `passenger_name`: Name of the passenger
+- `email`: Passenger's email address
+- `flight`: Foreign key to Flight model
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Support
+
+For questions or issues, please open an issue in the repository or contact the development team.
