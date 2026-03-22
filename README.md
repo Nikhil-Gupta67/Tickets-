@@ -115,6 +115,15 @@ Tickets/
 │           └── style.css
 └── migrations/          # Database migrations
 ```
+## Models
+
+### Flight
+- `flight_name`: Name of the flight
+- `source`: Departure location
+- `destination`: Arrival location
+- `date`: Flight date
+- `price`: Ticket price
+
 
 ### Booking
 - `passenger_name`: Name of the passenger
