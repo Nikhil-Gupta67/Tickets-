@@ -19,7 +19,7 @@ A Django-based web application for searching and booking flights. This project a
 
 ## Installation--
 
-### Prerequisites
+### Prerequisites--
 
 - Python 3.x installed on your system
 - Git (optional, for cloning the repository)
