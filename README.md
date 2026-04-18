@@ -2,7 +2,7 @@
 
 A Django-based web application for searching and booking flights. This project allows users to search for flights between destinations, view available options, and make bookings with their personal details.
 
-## Features--
+## Features-
 
 - **Flight Search**: Search for flights by source and destination
 - **Flight Booking**: Book flights with passenger name and email
