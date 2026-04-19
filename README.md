@@ -10,7 +10,7 @@ A Django-based web application for searching and booking flights. This project a
 - **Responsive Design**: Clean, user-friendly interface with HTML templates
 - **Database Integration**: SQLite database with Django ORM
 
-## Technologies Used--
+## Technologies Used-
 
 - **Backend**: Django 6.0.3
 - **Database**: SQLite
