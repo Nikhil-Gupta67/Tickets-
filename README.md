@@ -17,7 +17,7 @@ A Django-based web application for searching and booking flights. This project a
 - **Frontend**: HTML, CSS (SCSS)
 - **Python**: 3.x
 
-## Installation--
+## Installation-
 
 ### Prerequisites--
 
