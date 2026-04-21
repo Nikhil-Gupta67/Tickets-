@@ -74,7 +74,7 @@ A Django-based web application for searching and booking flights. This project a
    http://127.0.0.1:8000/
    ```
 
-### Available Pages
+### Available Pages-
 
 - **Home** (`/`): Landing page
 - **Search Flights** (`/search/`): Search for flights by source and destination
