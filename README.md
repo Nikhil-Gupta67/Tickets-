@@ -62,7 +62,7 @@ A Django-based web application for searching and booking flights. This project a
    python manage.py createsuperuser
    ```
 
-## Usage
+## Usage-
 
 1. **Start the development server**
    ```bash
