@@ -115,7 +115,7 @@ Tickets/
 │           └── style.css
 └── migrations/          # Database migrations
 ```
-## Models
+## Models-
 
 ### Flight
 - `flight_name`: Name of the flight
