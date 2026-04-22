@@ -84,7 +84,7 @@ A Django-based web application for searching and booking flights. This project a
 - **Login** (`/login/`): User authentication
 - **Logout** (`/logout/`): User logout
 
-### Admin Panel
+### Admin Panel-
 
 Access the Django admin panel at `http://127.0.0.1:8000/admin/` using the superuser credentials to manage flights and bookings.
 
