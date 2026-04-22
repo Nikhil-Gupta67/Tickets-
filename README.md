@@ -88,7 +88,7 @@ A Django-based web application for searching and booking flights. This project a
 
 Access the Django admin panel at `http://127.0.0.1:8000/admin/` using the superuser credentials to manage flights and bookings.
 
-## Project Structure
+## Project Structure-
 
 ```
 Tickets/
