@@ -125,7 +125,7 @@ Tickets/
 - `price`: Ticket price
 
 
-### Booking
+### Booking-
 - `passenger_name`: Name of the passenger
 - `email`: Passenger's email address
 - `flight`: Foreign key to Flight model
