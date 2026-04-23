@@ -130,7 +130,7 @@ Tickets/
 - `email`: Passenger's email address
 - `flight`: Foreign key to Flight model
 
-## Contributing
+## Contributing-
 
 1. Fork the repository
 2. Create a feature branch
