@@ -142,6 +142,6 @@ Tickets/
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## Support
+## Support-
 
 For questions or issues, please open an issue in the repository or contact the development team.
