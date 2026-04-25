@@ -117,7 +117,7 @@ Tickets/
 ```
 ## Models-
 
-### Flight
+### Flight-
 - `flight_name`: Name of the flight
 - `source`: Departure location
 - `destination`: Arrival location
