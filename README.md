@@ -91,7 +91,7 @@ Access the Django admin panel at `http://127.0.0.1:8000/admin/` using the superu
 ## Project Structure-
 
 ```
-Tickets/
+Tickets/-
 ├── manage.py              # Django management script
 ├── db.sqlite3            # SQLite database
 ├── Project/              # Main Django project
